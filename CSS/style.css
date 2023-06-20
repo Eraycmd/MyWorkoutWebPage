@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+/*Nav bar*/
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background-color: #1e272e;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+nav ul li span {
+    color: #fff;
+    font-size: 7vh;
+}
+
+/*Nav bar*/
+
+/*Go up! button*/
+.goBack {
+    color: orange;
+    position: fixed;
+    font-size: 30px;
+    margin-left: 6vh;
+    margin-top: 59vh;
+}
+
+.goBack p {
+    text-align: center;
+    margin-left: -2.5vh;
+    margin-top: -1.5vh;
+}
+
+.goBack i {
+    color: orange;
+}
+
+.goBack i:hover,
+.goBack p:hover {
+    transition: .6s;
+    color: royalblue;
+    transform: translateY(-2px);
+}
+
+/*Go up! button*/
+
+/*Containers*/
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -5vh;
+}
+
+.container1,
+.container2,
+.container3 {
+    border: 1px solid #1e272e;
+    border-radius: 10px;
+    width: 280px;
+    height: 370px;
+}
+
+.day {
+    color: #fff;
+    font-size: 25px;
+}
+
+.container1 .day {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.container2 .day {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.container3 .day {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.container3 .exercises {
+    font-size: 15px;
+}
+
+.offDay {
+    color: gray;
+    font-size: 25px;
+}
+
+.exercises {
+    color: #fff;
+    font-size: 16px;
+}
+
+/*Containers*/
+
+/*ContainerOfDetails*/
+.details {
+    width: 99.9%;
+    height: 300vh;
+    margin-top: 15vh;
+    border: 1px solid grey;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+/*ContainerOfDetails*/
