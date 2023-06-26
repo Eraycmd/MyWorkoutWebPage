@@ -1,0 +1,203 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    #body {
+        width: 100%;
+    }
+
+    /*Nav bar*/
+    nav {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60px;
+        background-color: #1e272e;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+
+    nav ul li span {
+        color: #fff;
+        font-size: 5vh;
+    }
+
+    /*Nav bar*/
+
+    /*Go up! button*/
+    .goUp {
+        color: orange;
+        position: fixed;
+        font-size: 30px;
+        margin-left: 60vh;
+        margin-top: 50vh;
+    }
+
+    .goUp p {
+        margin-left: -2.5vh;
+        margin-top: -1.5vh;
+    }
+
+    .goUp i {
+        color: orange;
+    }
+
+
+    /*Go up! button*/
+
+    /*Containers*/
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5vh;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        border: 1px solid #1e272e;
+        border-radius: 10px;
+        width: 240px;
+        height: 320px;
+        margin: 0 auto;
+    }
+
+    .day {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .container1 .day {
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    .container2 {
+        margin-top: 10vh;
+    }
+
+    .container2 .day {
+        margin-top: 4vh;
+        text-align: center;
+    }
+
+    .container3 {
+        margin-top: 10vh;
+    }
+
+    .container3 .day {
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    .container3 .exercises {
+        font-size: 12.5px;
+    }
+
+    .offDay {
+        display: none;
+    }
+
+    .exercises {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 1.5vh;
+    }
+
+    /*Containers*/
+
+    /*ContainerOfDetails*/
+    .details {
+        width: 99.6%;
+        height: 1919vh;
+        margin-top: 15vh;
+        border: 1px solid grey;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+
+    .information {
+        color: #e74c3c;
+        margin-top: 5vh;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .LeftSide h2,
+    .RightSide h2 {
+        font-size: 6vh;
+        color: #fff;
+    }
+
+    .LeftSide p,
+    .RightSide p {
+        font-size: 18px;
+        color: #fff;
+        padding: 2vh 2vh;
+    }
+
+    .LeftSide img,
+    .RightSide img {
+        width: 50vh;
+    }
+
+    #Monday {
+        height: 560vh;
+    }
+
+    #Monday .LeftSide {
+        margin-top: -12vh;
+    }
+
+    #Monday .RightSide {
+        float: left;
+        margin-top: -2vh;
+    }
+
+    #Wednesday {
+        height: 545vh;
+    }
+
+    #Wednesday .LeftSide {
+        margin-top: -12vh;
+    }
+
+    #Wednesday .RightSide {
+        float: left;
+        margin-top: -2vh;
+    }
+
+    #Friday {
+        height: 570vh;
+    }
+
+    #Friday .LeftSide {
+        margin-top: -12vh;
+    }
+
+    #Friday .RightSide {
+        float: left;
+        margin-top: -2vh;
+    }
+
+    .FirstExercises,
+    .SecondExercises,
+    .ThirdExercises,
+    .FourthExercises,
+    .FifthExercises,
+    .SixthExercises {
+        margin-top: 15vh;
+    }
+
+    /*ContainerOfDetails*/
+}
+
+/*Telephone*/

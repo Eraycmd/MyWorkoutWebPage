@@ -35,7 +35,7 @@ nav ul li span {
 /*Nav bar*/
 
 /*Go up! button*/
-.goBack {
+.goUp {
     color: orange;
     position: fixed;
     font-size: 30px;
@@ -43,18 +43,17 @@ nav ul li span {
     margin-top: 59vh;
 }
 
-.goBack p {
-    text-align: center;
+.goUp p {
     margin-left: -2.5vh;
     margin-top: -1.5vh;
 }
 
-.goBack i {
+.goUp i {
     color: orange;
 }
 
-.goBack i:hover,
-.goBack p:hover {
+.goUp i:hover,
+.goUp p:hover {
     transition: .6s;
     color: royalblue;
     transform: translateY(-2px);
@@ -111,6 +110,7 @@ nav ul li span {
 .exercises {
     color: #fff;
     font-size: 16px;
+    margin-left: 1.5vh;
 }
 
 /*Containers*/
@@ -118,7 +118,7 @@ nav ul li span {
 /*ContainerOfDetails*/
 .details {
     width: 99.9%;
-    height: 300vh;
+    height: 419vh;
     margin-top: 15vh;
     border: 1px solid grey;
 }
@@ -128,6 +128,72 @@ h1 {
     color: #fff;
     text-align: center;
     margin-top: 15vh;
+}
+
+
+.information {
+    color: #e74c3c;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.LeftSide h2,
+.RightSide h2 {
+    padding: 0vh 2vh;
+    font-size: 8vh;
+    color: #fff;
+}
+
+.LeftSide p,
+.RightSide p {
+    font-size: 18px;
+    color: #fff;
+    padding: 2vh 2vh;
+}
+
+.LeftSide img,
+.RightSide img {
+    margin-left: 2vh;
+    width: 100vh;
+}
+
+#Monday {
+    height: 450vh;
+}
+
+#Monday .RightSide {
+    margin-right: 2vh;
+    float: right;
+    margin-top: -371vh;
+}
+
+#Wednesday {
+    height: 425vh;
+}
+
+#Wednesday .RightSide {
+    margin-right: 2vh;
+    float: right;
+    margin-top: -384vh;
+}
+
+#Friday {
+    height: 450vh;
+}
+
+#Friday .RightSide {
+    margin-right: 2vh;
+    float: right;
+    margin-top: -396vh;
+}
+
+.FirstExercises,
+.SecondExercises,
+.ThirdExercises,
+.FourthExercises,
+.FifthExercises,
+.SixthExercises {
+    margin-top: 10vh;
 }
 
 /*ContainerOfDetails*/
