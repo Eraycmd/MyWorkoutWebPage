@@ -21,7 +21,7 @@
 
     nav ul li span {
         color: #fff;
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     /*Nav bar*/
@@ -146,7 +146,7 @@
 
     .LeftSide img,
     .RightSide img {
-        width: 50vh;
+        width: 40vh;
     }
 
     #Monday {
