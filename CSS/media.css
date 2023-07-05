@@ -56,11 +56,12 @@
 
     .container1,
     .container2,
-    .container3 {
+    .container3,
+    .container4 {
         border: 1px solid #1e272e;
         border-radius: 10px;
         width: 240px;
-        height: 320px;
+        height: 215px;
         margin: 0 auto;
     }
 
@@ -70,7 +71,7 @@
     }
 
     .container1 .day {
-        margin-top: 4vh;
+        margin-top: 1vh;
         text-align: center;
     }
 
@@ -88,12 +89,16 @@
     }
 
     .container3 .day {
-        margin-top: 3vh;
         text-align: center;
     }
 
-    .container3 .exercises {
-        font-size: 12.5px;
+    .container4 {
+        margin-top: 10vh;
+    }
+
+    .container4 .day {
+        margin-top: 3vh;
+        text-align: center;
     }
 
     .offDay {
@@ -126,7 +131,7 @@
 
     .information {
         color: #e74c3c;
-        margin-top: 5vh;
+        margin-top: 2vh;
         font-size: 14px;
         text-align: center;
     }
@@ -149,41 +154,55 @@
         width: 40vh;
     }
 
-    #Monday {
-        height: 465vh;
+    #Day1 {
+        height: 380vh;
     }
 
-    #Monday .LeftSide {
+    #Day1 .LeftSide {
         margin-top: -12vh;
     }
 
-    #Monday .RightSide {
+    #Day1 .RightSide {
         float: left;
         margin-top: -2vh;
     }
 
-    #Wednesday {
-        height: 445vh;
+    #Day2 {
+        height: 315vh;
     }
 
-    #Wednesday .LeftSide {
+    #Day2 .LeftSide {
         margin-top: -12vh;
     }
 
-    #Wednesday .RightSide {
+    #Day2 .RightSide {
         float: left;
         margin-top: -2vh;
     }
 
-    #Friday {
-        height: 500vh;
+    #Day3 {
+        height: 375vh;
     }
 
-    #Friday .LeftSide {
+    #Day3 .LeftSide {
         margin-top: -12vh;
     }
 
-    #Friday .RightSide {
+    #Day3 .RightSide {
+        float: left;
+        margin-top: -2vh;
+    }
+
+    #Day4 {
+        height: 365vh;
+    }
+
+
+    #Day4 .LeftSide {
+        margin-top: -12vh;
+    }
+
+    #Day4 .RightSide {
         float: left;
         margin-top: -2vh;
     }
@@ -194,7 +213,7 @@
     .FourthExercises,
     .FifthExercises,
     .SixthExercises {
-        margin-top: 15vh;
+        margin-top: 12vh;
     }
 
     /*ContainerOfDetails*/

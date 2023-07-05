@@ -66,16 +66,17 @@ nav ul li span {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: -5vh;
+    margin-top: 5vh;
 }
 
 .container1,
 .container2,
-.container3 {
+.container3,
+.container4 {
     border: 1px solid #1e272e;
     border-radius: 10px;
     width: 280px;
-    height: 370px;
+    height: 250px;
 }
 
 .day {
@@ -84,27 +85,21 @@ nav ul li span {
 }
 
 .container1 .day {
-    margin-top: 4vh;
     text-align: center;
 }
 
 .container2 .day {
-    margin-top: 4vh;
+    margin-top: 7vh;
     text-align: center;
 }
 
 .container3 .day {
-    margin-top: 3vh;
     text-align: center;
 }
 
-.container3 .exercises {
-    font-size: 15px;
-}
-
-.offDay {
-    color: gray;
-    font-size: 25px;
+.container4 .day {
+    text-align: center;
+    margin-top: 7vh;
 }
 
 .exercises {
@@ -119,7 +114,7 @@ nav ul li span {
 .details {
     width: 99.9%;
     height: 419vh;
-    margin-top: 15vh;
+    margin-top: 35vh;
     border: 1px solid grey;
 }
 
@@ -157,34 +152,56 @@ h1 {
     width: 100vh;
 }
 
-#Monday {
-    height: 450vh;
+#Day1 {
+    height: 330vh;
 }
 
-#Monday .RightSide {
+#Day1 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -371vh;
+    margin-top: -287vh;
 }
 
-#Wednesday {
-    height: 425vh;
+#Day2 {
+    height: 310vh;
 }
 
-#Wednesday .RightSide {
+#Day2 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -384vh;
+    margin-top: -275.5vh;
 }
 
-#Friday {
-    height: 450vh;
+#Day2 .SixthExercises h2 {
+    font-size: 40px;
 }
 
-#Friday .RightSide {
+#Day3 {
+    height: 349vh;
+}
+
+#Day3 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -396vh;
+    margin-top: -266vh;
+}
+
+#Day3 .FourthExercises h2 {
+    font-size: 25px;
+}
+
+#Day4 {
+    height: 360vh;
+}
+
+#Day4 .RightSide {
+    margin-right: 2vh;
+    float: right;
+    margin-top: -326vh;
+}
+
+#Day4 .SixthExercises h2 {
+    font-size: 28px;
 }
 
 .FirstExercises,
