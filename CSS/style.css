@@ -153,23 +153,27 @@ h1 {
 }
 
 #Day1 {
-    height: 330vh;
+    height: 350vh;
 }
 
 #Day1 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -287vh;
+    margin-top: -301vh;
 }
 
 #Day2 {
-    height: 310vh;
+    height: 290vh;
 }
 
 #Day2 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -275.5vh;
+    margin-top: -255vh;
+}
+
+#Day2 .SecondExercises h2 {
+    font-size: 40px;
 }
 
 #Day2 .SixthExercises h2 {
@@ -177,31 +181,35 @@ h1 {
 }
 
 #Day3 {
-    height: 359vh;
+    height: 340vh;
 }
 
 #Day3 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -266vh;
+    margin-top: -300vh;
 }
 
 #Day3 .FourthExercises h2 {
-    font-size: 25px;
+    font-size: 40px;
+}
+
+#Day3 .SixthExercises h2 {
+    font-size: 40px;
 }
 
 #Day4 {
-    height: 360vh;
+    height: 300vh;
 }
 
 #Day4 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -326vh;
+    margin-top: -256vh;
 }
 
 #Day4 .SixthExercises h2 {
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .FirstExercises,
