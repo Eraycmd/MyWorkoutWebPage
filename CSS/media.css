@@ -155,11 +155,15 @@
     }
 
     #Day1 {
-        height: 380vh;
+        height: 365vh;
+    }
+
+    #Day1 h1 {
+        margin-top: 5vh;
     }
 
     #Day1 .LeftSide {
-        margin-top: -12vh;
+        margin-top: -5vh;
     }
 
     #Day1 .RightSide {
@@ -168,11 +172,15 @@
     }
 
     #Day2 {
-        height: 315vh;
+        height: 290vh;
+    }
+
+    #Day2 h1 {
+        margin-top: 5vh;
     }
 
     #Day2 .LeftSide {
-        margin-top: -12vh;
+        margin-top: -5vh;
     }
 
     #Day2 .RightSide {
@@ -181,11 +189,15 @@
     }
 
     #Day3 {
-        height: 375vh;
+        height: 360vh;
+    }
+
+    #Day3 h1 {
+        margin-top: 5vh;
     }
 
     #Day3 .LeftSide {
-        margin-top: -12vh;
+        margin-top: -5vh;
     }
 
     #Day3 .RightSide {
@@ -194,12 +206,15 @@
     }
 
     #Day4 {
-        height: 365vh;
+        height: 335vh;
     }
 
+    #Day4 h1 {
+        margin-top: 5vh;
+    }
 
     #Day4 .LeftSide {
-        margin-top: -12vh;
+        margin-top: -5vh;
     }
 
     #Day4 .RightSide {
@@ -212,8 +227,9 @@
     .ThirdExercises,
     .FourthExercises,
     .FifthExercises,
-    .SixthExercises {
-        margin-top: 12vh;
+    .SixthExercises,
+    .SeventhExercises {
+        margin-top: 8vh;
     }
 
     /*ContainerOfDetails*/

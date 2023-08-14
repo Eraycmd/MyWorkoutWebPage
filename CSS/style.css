@@ -153,13 +153,13 @@ h1 {
 }
 
 #Day1 {
-    height: 350vh;
+    height: 380vh;
 }
 
 #Day1 .RightSide {
     margin-right: 2vh;
     float: right;
-    margin-top: -301vh;
+    margin-top: -345vh;
 }
 
 #Day2 {
@@ -181,7 +181,7 @@ h1 {
 }
 
 #Day3 {
-    height: 340vh;
+    height: 350vh;
 }
 
 #Day3 .RightSide {
@@ -199,7 +199,7 @@ h1 {
 }
 
 #Day4 {
-    height: 300vh;
+    height: 295vh;
 }
 
 #Day4 .RightSide {
@@ -217,7 +217,8 @@ h1 {
 .ThirdExercises,
 .FourthExercises,
 .FifthExercises,
-.SixthExercises {
+.SixthExercises,
+.SeventhExercises {
     margin-top: 10vh;
 }
 
