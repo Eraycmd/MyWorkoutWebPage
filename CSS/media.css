@@ -33,7 +33,7 @@
         position: fixed;
         font-size: 25px;
         margin-left: 3vh;
-        margin-top: 45vh;
+        margin-top: 20vh;
     }
 
     .goUp p {
@@ -100,7 +100,7 @@
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 35px;
         color: #fff;
         text-align: center;
         margin-top: 15vh;
@@ -108,8 +108,14 @@
 
     .leftSide h2,
     .rightSide h2 {
-        font-size: 6vh;
+        font-size: 4vh;
         color: #fff;
+    }
+
+    .leftSide span,
+    .rightSide span {
+        font-size: 2.5vh;
+
     }
 
     .leftSide p,
@@ -125,7 +131,7 @@
     }
 
     #Day1 {
-        height: 465vh;
+        height: 320vh;
     }
 
     #Day1 h2 {
@@ -142,7 +148,7 @@
     }
 
     #Day2 {
-        height: 495vh;
+        height: 350vh;
     }
 
     #Day2 h2 {
@@ -159,7 +165,7 @@
     }
 
     #Day3 {
-        height: 420vh;
+        height: 290vh;
     }
 
     #Day3 h2 {
@@ -176,7 +182,7 @@
     }
 
     #Day4 {
-        height: 500vh;
+        height: 345vh;
     }
 
     #Day4 h2 {
@@ -193,7 +199,7 @@
     }
 
     #Day5 {
-        height: 520vh;
+        height: 435vh;
     }
 
     #Day5 h2 {
@@ -216,7 +222,7 @@
     .fifthExercise,
     .sixthExercise,
     .seventhExercise {
-        margin-top: 8vh;
+        margin-top: 10vh;
     }
 
     /*ContainerOfDetails*/
