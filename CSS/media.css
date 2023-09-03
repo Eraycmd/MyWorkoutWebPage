@@ -1,3 +1,4 @@
+/*Telephone*/
 @media (min-width: 320px) and (max-width: 480px) {
     #body {
         width: 100%;
@@ -30,7 +31,7 @@
     .goUp {
         color: orange;
         position: fixed;
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 3vh;
         margin-top: 45vh;
     }
@@ -44,8 +45,8 @@
         color: orange;
     }
 
-
     /*Go up! button*/
+
 
     /*Containers*/
     .mainContainer {
@@ -54,69 +55,46 @@
         margin-top: -5vh;
     }
 
-    .container1,
-    .container2,
-    .container3,
-    .container4 {
+    .firstContainer,
+    .secondContainer,
+    .thirdContainer,
+    .fourthContainer,
+    .fifthContainer {
         border: 1px solid #1e272e;
         border-radius: 10px;
         width: 240px;
-        height: 215px;
         margin: 0 auto;
     }
 
-    .day {
-        color: #fff;
-        font-size: 25px;
+    .firstContainer {
+        height: 210px;
     }
 
-    .container1 .day {
-        margin-top: 1vh;
-        text-align: center;
-    }
-
-    .container2 {
+    .secondContainer {
         margin-top: 10vh;
+        height: 250px;
     }
 
-    .container2 .day {
-        margin-top: 4vh;
-        text-align: center;
-    }
-
-    .container3 {
+    .thirdContainer {
         margin-top: 10vh;
+        height: 220px;
     }
 
-    .container3 .day {
-        text-align: center;
-    }
-
-    .container4 {
+    .fourthContainer {
         margin-top: 10vh;
+        height: 250px;
     }
 
-    .container4 .day {
-        margin-top: 3vh;
-        text-align: center;
-    }
-
-    .offDay {
-        display: none;
-    }
-
-    .exercises {
-        color: #fff;
-        font-size: 14px;
-        margin-left: 1.5vh;
+    .fifthContainer {
+        margin-top: 10vh;
+        height: 270px;
     }
 
     /*Containers*/
 
     /*ContainerOfDetails*/
     .details {
-        width: 99.6%;
-        height: 1919vh;
+        width: auto;
         margin-top: 15vh;
         border: 1px solid grey;
     }
@@ -128,107 +106,116 @@
         margin-top: 15vh;
     }
 
-
-    .information {
-        color: #e74c3c;
-        margin-top: 2vh;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .LeftSide h2,
-    .RightSide h2 {
+    .leftSide h2,
+    .rightSide h2 {
         font-size: 6vh;
         color: #fff;
     }
 
-    .LeftSide p,
-    .RightSide p {
+    .leftSide p,
+    .rightSide p {
         font-size: 18px;
         color: #fff;
         padding: 2vh 2vh;
     }
 
-    .LeftSide img,
-    .RightSide img {
-        width: 40vh;
+    .leftSide img,
+    .rightSide img {
+        width: 65vh;
     }
 
     #Day1 {
-        height: 365vh;
+        height: 465vh;
     }
 
-    #Day1 h1 {
+    #Day1 h2 {
         margin-top: 5vh;
     }
 
-    #Day1 .LeftSide {
+    #Day1 .leftSide {
         margin-top: -5vh;
     }
 
-    #Day1 .RightSide {
+    #Day1 .rightSide {
         float: left;
-        margin-top: -2vh;
+        margin-top: 2vh;
     }
 
     #Day2 {
-        height: 290vh;
+        height: 495vh;
     }
 
-    #Day2 h1 {
+    #Day2 h2 {
         margin-top: 5vh;
     }
 
-    #Day2 .LeftSide {
+    #Day2 .leftSide {
         margin-top: -5vh;
     }
 
-    #Day2 .RightSide {
+    #Day2 .rightSide {
         float: left;
         margin-top: -2vh;
     }
 
     #Day3 {
-        height: 360vh;
+        height: 420vh;
     }
 
-    #Day3 h1 {
+    #Day3 h2 {
         margin-top: 5vh;
     }
 
-    #Day3 .LeftSide {
+    #Day3 .leftSide {
         margin-top: -5vh;
     }
 
-    #Day3 .RightSide {
+    #Day3 .rightSide {
         float: left;
         margin-top: -2vh;
     }
 
     #Day4 {
-        height: 335vh;
+        height: 500vh;
     }
 
-    #Day4 h1 {
+    #Day4 h2 {
         margin-top: 5vh;
     }
 
-    #Day4 .LeftSide {
+    #Day4 .leftSide {
         margin-top: -5vh;
     }
 
-    #Day4 .RightSide {
+    #Day4 .rightSide {
         float: left;
         margin-top: -2vh;
     }
 
-    .FirstExercises,
-    .SecondExercises,
-    .ThirdExercises,
-    .FourthExercises,
-    .FifthExercises,
-    .SixthExercises,
-    .SeventhExercises {
+    #Day5 {
+        height: 520vh;
+    }
+
+    #Day5 h2 {
+        margin-top: 5vh;
+    }
+
+    #Day5 .leftSide {
+        margin-top: -5vh;
+    }
+
+    #Day5 .rightSide {
+        float: left;
+        margin-top: -2vh;
+    }
+
+    .firstExercise,
+    .secondExercise,
+    .thirdExercise,
+    .fourthExercise,
+    .fifthExercise,
+    .sixthExercise,
+    .seventhExercise {
         margin-top: 8vh;
     }
 

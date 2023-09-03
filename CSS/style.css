@@ -61,56 +61,46 @@ nav ul li span {
 
 /*Go up! button*/
 
-/*Containers*/
+/*Exercises*/
 .mainContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5vh;
 }
 
-.container1,
-.container2,
-.container3,
-.container4 {
-    border: 1px solid #1e272e;
-    border-radius: 10px;
-    width: 280px;
-    height: 250px;
+.firstContainer,
+.secondContainer,
+.thirdContainer,
+.fourthContainer,
+.fifthContainer {
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 40vh;
+    height: 44vh;
 }
 
-.day {
+.firstContainer p,
+.secondContainer p,
+.thirdContainer p,
+.fourthContainer p,
+.fifthContainer p {
+    color: #fff;
+}
+
+.dayInfo {
     color: #fff;
     font-size: 25px;
-}
-
-.container1 .day {
     text-align: center;
+    margin-top: 2vh;
 }
 
-.container2 .day {
-    margin-top: 7vh;
-    text-align: center;
+.dayInfo span {
+    font-size: 18px;
 }
 
-.container3 .day {
-    text-align: center;
-}
+/*Exercises*/
 
-.container4 .day {
-    text-align: center;
-    margin-top: 7vh;
-}
-
-.exercises {
-    color: #fff;
-    font-size: 16px;
-    margin-left: 1.5vh;
-}
-
-/*Containers*/
-
-/*ContainerOfDetails*/
+/*containerOfDetails*/
 .details {
     width: 99.9%;
     height: 419vh;
@@ -119,107 +109,79 @@ nav ul li span {
 }
 
 h1 {
-    font-size: 40px;
     color: #fff;
+    font-size: 40px;
     text-align: center;
     margin-top: 15vh;
 }
 
-
-.information {
-    color: #e74c3c;
-    margin-top: 5vh;
-    text-align: center;
-}
-
-.LeftSide h2,
-.RightSide h2 {
+.leftSide h2,
+.rightSide h2 {
     padding: 0vh 2vh;
-    font-size: 8vh;
+    font-size: 7vh;
     color: #fff;
+    margin-top: 13vh;
 }
 
-.LeftSide p,
-.RightSide p {
-    font-size: 18px;
-    color: #fff;
-    padding: 2vh 2vh;
+.leftSide span,
+.rightSide span {
+    font-size: 4vh;
 }
 
-.LeftSide img,
-.RightSide img {
+.leftSide img,
+.rightSide img {
     margin-left: 2vh;
+    margin-right: 2vh;
     width: 100vh;
 }
 
 #Day1 {
-    height: 380vh;
+    height: 310vh;
 }
 
-#Day1 .RightSide {
-    margin-right: 2vh;
+#Day1 .rightSide {
     float: right;
-    margin-top: -345vh;
+    margin-top: -280vh;
 }
 
 #Day2 {
-    height: 290vh;
+    height: 410vh;
 }
 
-#Day2 .RightSide {
-    margin-right: 2vh;
+#Day2 .rightSide {
     float: right;
-    margin-top: -255vh;
-}
-
-#Day2 .SecondExercises h2 {
-    font-size: 40px;
-}
-
-#Day2 .SixthExercises h2 {
-    font-size: 40px;
+    margin-top: -385vh;
 }
 
 #Day3 {
-    height: 350vh;
+    height: 290vh;
 }
 
-#Day3 .RightSide {
-    margin-right: 2vh;
+#Day3 .rightSide {
     float: right;
-    margin-top: -300vh;
-}
-
-#Day3 .FourthExercises h2 {
-    font-size: 40px;
-}
-
-#Day3 .SixthExercises h2 {
-    font-size: 40px;
+    margin-top: -263vh;
 }
 
 #Day4 {
-    height: 295vh;
+    height: 430vh;
 }
 
-#Day4 .RightSide {
-    margin-right: 2vh;
+#Day4 .rightSide {
     float: right;
-    margin-top: -256vh;
+    margin-top: -403vh;
 }
 
-#Day4 .SixthExercises h2 {
-    font-size: 40px;
+#Day5 {
+    height: 390vh;
 }
 
-.FirstExercises,
-.SecondExercises,
-.ThirdExercises,
-.FourthExercises,
-.FifthExercises,
-.SixthExercises,
-.SeventhExercises {
-    margin-top: 10vh;
+#Day5 .sixthExercise h2 {
+    font-size: 5.5vh;
 }
 
-/*ContainerOfDetails*/
+#Day5 .rightSide {
+    float: right;
+    margin-top: -364vh;
+}
+
+/*containerOfDetails*/
