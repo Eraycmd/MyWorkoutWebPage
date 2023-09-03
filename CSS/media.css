@@ -10,19 +10,19 @@
         display: flex;
         flex-direction: row;
         width: 100%;
-        height: 60px;
+        height: 80px;
         background-color: #1e272e;
         font-family: 'Roboto', sans-serif;
     }
 
     nav ul {
         margin: 0 auto;
-        margin-top: 18px;
+        margin-top: 13px;
     }
 
     nav ul li span {
         color: #fff;
-        font-size: 3vh;
+        font-size: 6vh;
     }
 
     /*Nav bar*/
@@ -94,7 +94,7 @@
 
     /*ContainerOfDetails*/
     .details {
-        width: auto;
+        width: 100vh;
         margin-top: 15vh;
         border: 1px solid grey;
     }
